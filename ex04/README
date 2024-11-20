@@ -1,0 +1,6 @@
+to run:
+	colcon build
+	source ~/ws_urdf/install/setup.bash
+	ros2 launch robot_bringup diff_drive.launch.py
+terminal:
+	ros2 run robot_cycle cycle

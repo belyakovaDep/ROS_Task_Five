@@ -1,0 +1,5 @@
+to run:
+	cd ws_urdf
+	colcon build
+	source ~/ws_urdf/install/setup.bash
+	ros2 launch mod_five robot_display.launch.py
